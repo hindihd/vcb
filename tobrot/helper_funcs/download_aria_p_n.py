@@ -47,15 +47,15 @@ async def aria_start():
     # but for now, https://t.me/TrollVoiceBot?start=858
     aria2_daemon_start_cmd.append("--enable-rpc")
     aria2_daemon_start_cmd.append("--follow-torrent=mem")
-    aria2_daemon_start_cmd.append("--max-connection-per-server=10")
-    aria2_daemon_start_cmd.append("--min-split-size=10M")
+    aria2_daemon_start_cmd.append("--max-connection-per-server=7")
+    aria2_daemon_start_cmd.append("--min-split-size=8M")
     aria2_daemon_start_cmd.append("--rpc-listen-all=false")
-    aria2_daemon_start_cmd.append(f"--rpc-listen-port={ARIA_TWO_STARTED_PORT}")
+    aria2_daemon_start_cmd.append(f"--rpc-listen-port=6800")
     aria2_daemon_start_cmd.append("--rpc-max-request-size=1024M")
-    aria2_daemon_start_cmd.append("--seed-time=0")
+    aria2_daemon_start_cmd.append("--seed-time=0.01")
     aria2_daemon_start_cmd.append("--max-overall-upload-limit=1K")
     aria2_daemon_start_cmd.append("--split=10")
-    aria2_daemon_start_cmd.append(f"--bt-stop-timeout={MAX_TIME_TO_WAIT_FOR_TORRENTS_TO_START}")
+    aria2_daemon_start_cmd.append(f"--bt-stop-timeout=300")
     #
     LOGGER.info(aria2_daemon_start_cmd)
     #

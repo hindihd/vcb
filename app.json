@@ -1,12 +1,14 @@
 {
-  "name": "Telegram Torrent Leecher",
-  "description": "A Telegram Torrent (and youtube-dl) Leecher based on Pyrogram. Powered by @torrentleechgdrivesupport!",
+  "name": "Telegram Torrent Bot",
+  "description": "This Bot Leeches Magnet Links and Ytdl Supported links to Our Favourite Telegram and Most Loved Google drive and Other Cloud Servers . ",
   "keywords": [
-    "telegram"
+    "telegram","bot","torrent","leech"
   ],
-  "repository": "https://github.com/gautamajay52/TorrentLeech-Gdrive",
-  "success_url": "https://t.me/torrentleechgdrivesupport",
-  "website": "https://github.com/gautamajay52/TorrentLeech-Gdrive"
-  },
+  "repository": "https://github.com/bhardwajjEE/TorToolkit-Telegram",
+  "success_url": "https://github.com/bhardwajjEE/TorToolkit-Telegram",
+  "website": "https://github.com/bhardwajjEE/TorToolkit-Telegram",
+
+
+
   "stack": "container"
 }

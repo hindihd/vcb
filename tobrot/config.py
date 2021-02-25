@@ -9,7 +9,7 @@ class Config(Config):
     APP_ID = 1815432
     API_HASH = "168849a53b72ceed26914aa5e8e00ab7"
     OWNER_ID = 885190545
-    AUTH_CHANNEL = "-1001409146277"
+    AUTH_CHANNEL = [-1001409146277]
     DESTINATION_FOLDER = "Uploaders Team Drive [Backup1]" #Name of your folder read readme(not id of the folder)
     #Just don't fill RCLONE_CONFIG vars, insted copy your rclone.conf file in root directory
     #if your wanted to fill -- fill your rclone config like this(Your config may have some extra value or less. so Don't worry)
